@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:  "Gill Sans", sans-serif;;
 }
 header{
     display:flex;
@@ -27,6 +28,10 @@ main{
     width: 40vw;
     padding: 20px;
     justify-content: space-between;
+}
+
+.text {
+    font-size: 2em;
 }
 
 .phone{
@@ -71,7 +76,7 @@ main{
 
 .sign-in > button{
     background-color: rgb(248, 186, 70);
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 99%;
     height: 3.5vh;
 }
