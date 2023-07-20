@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+header > img{
+    height: 9vh;
+    width: 14vw;
+}
+main{
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in{
+    border:1px solid lightgrey;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 40vw;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.email{
+    display: flex;
+    flex-direction: column; 
+}
+
+.email > input{
+    width: 98%;
+    height: 3vh;
+    margin-bottom: 2vh;
+}
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .5vw;
+    margin-bottom: 1vh;
+}
+
+.forgot > a{
+    text-decoration: none;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+}
+.password > input{
+    width: 98%;
+    height: 3vh;
+}
+
+.help{
+    padding-left: 2vw;
+}
+
+.sign-in > button{
+    background-color: rgb(248, 186, 70);
+    border: 1px solid black;
+    width: 99%;
+    height: 3.5vh;
+}
+
+.new{
+    color:black;
+}
+
+.new > hr {
+    display: flex;
+    align-items: center;
+    width: 12%;
+    border: none;
+    height: 1px;
+    background-color: black;
+  }
+
+
+  .new > span {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+.create{
+    margin: 1vh;
+}
+
+.create > button{
+    height: 3.5vh;
+    width: 40vw;
+    background-color: lightgrey;
+    border:1px solid grey;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+footer > ul {
+    list-style-type: none;
+}
+
+footer > ul > li {
+    display: inline;
+    margin: 2vw;
+}
+
+footer > ul > li > a{
+    text-decoration: none;
+    color:rgba(72, 72, 235, 0.753);
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+
